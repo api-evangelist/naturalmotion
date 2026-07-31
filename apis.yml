@@ -1,8 +1,24 @@
 aid: naturalmotion
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/naturalmotion.png
 name: naturalmotion
-description: naturalmotion is a company surfaced as a portfolio company of balderton-capital and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: NaturalMotion is a mobile game developer founded in 2001 and now operating
+  as part of Zynga under Take-Two Interactive, with games downloaded over six billion
+  times across more than 175 countries. Known for titles such as CSR Racing, Star
+  Wars Hunters, and the Euphoria and Morpheme animation technologies, the company builds
+  and publishes consumer mobile games. It was surfaced as a portfolio company of balderton-capital
+  and added to the API Evangelist network. As of this enrichment pass NaturalMotion
+  publishes no public developer API, SDK, documentation, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/naturalmotion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +28,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Gaming
+- Mobile Games
+- Game Development
+- Entertainment
+- Animation Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +43,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/naturalmotion-domain-security.yml
 - type: Website
   url: http://www.naturalmotion.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
